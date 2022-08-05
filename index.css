@@ -1,0 +1,114 @@
+html,
+body {
+  /* margin: 10px; */
+  padding: 7% 10% 0 10%;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  letter-spacing: 3px;
+}
+
+/* element */
+
+.let_space {
+  letter-spacing: 2px;
+}
+
+img {
+  padding-left: 25%;
+  width: 70%;
+}
+
+.c_grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 2vmax;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2vmax;
+}
+
+.box2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.box3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* element */
+
+.table_cont {
+  overflow-x: scroll;
+  width: 70vw;
+}
+
+table {
+  border-collapse: collapse;
+  letter-spacing: 3px;
+}
+
+td,
+th {
+  border: 1px solid #13659c;
+  text-align: center;
+  padding: 1vmax;
+  width: fit-content;
+}
+
+form {
+  margin: 2vmax 10vmax;
+}
+
+label {
+  font-size: 1.5vmax;
+}
+
+input {
+  padding: 2%;
+  font-size: 1.3vmax;
+  border: 1px solid #dddddd;
+  outline: none;
+  border-radius: 30px;
+  border-color: #0a0909;
+}
+
+select {
+  padding: 1vmax;
+  font-size: 1.3vmax;
+  border: 1px solid #dddddd;
+  outline: none;
+  letter-spacing: 3px;
+}
+
+option {
+  font-size: 1.5vmax;
+  letter-spacing: 3px;
+}
+
+.file_submit {
+  margin-top: 1vmax;
+  border: 1px solid #0066cb;
+  outline: none;
+  background-color: #e3eff9;
+  color: 0066cb;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 3px;
+  padding: 15px;
+  max-width: fit-content;
+  margin: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.file_submit:hover {
+  background-color: white;
+  color: #0066cb;
+}
